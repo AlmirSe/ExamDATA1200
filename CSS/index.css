@@ -1,7 +1,37 @@
 /*Global CSS*/
-
+*{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 
 /*index.html specific*/
+
+/*Navbar*/
+
+.navbar-box{
+  /*Standard nav-bar values*/
+  width: auto;
+  height: auto;
+  background-color: rgb(254, 197, 10);;
+
+  /*Flexbox to organize the items in the navigation bar*/
+  /*https://www.w3schools.com/csS/css3_flexbox.asp*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Shaping the navbar and givivng it form*/
+.navbar-item{  
+  width: 100px;
+  margin: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  text-align: center;
+  align-content: center;
+
+}
 
 /*accessibility.hmtl specific*/
 
