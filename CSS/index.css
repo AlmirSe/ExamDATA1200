@@ -215,6 +215,19 @@ the items inside, evenly and neatly using flexbox css.*/
 
 }
 
+/*github.html specific*/
+/*Uses the "container" class to create the possibility to spread 
+the items inside, evenly and neatly using flexbox css.*/
+.github-container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px;
+
+}
+
 /*This is the items class in the container, to make the items have the desired look*/
 .github {
   display: flex;
