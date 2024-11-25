@@ -174,14 +174,14 @@ th, td {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 750px;
+  width: 600px;
   margin-bottom: 25px;
   
 }
 
 .activities h2{
   text-align: left;
-  margin: 0;
+  margin: 10px;
 }
 
 .activities img{
