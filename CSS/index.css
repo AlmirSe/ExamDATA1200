@@ -71,6 +71,11 @@
   flex-direction: column;
 }
 
+.body-item2{
+  text-align: center;
+  font-size: 25px;
+}
+
 /*accessibility.hmtl specific*/
 
 /*activity.html specific*/
