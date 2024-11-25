@@ -43,6 +43,7 @@
 h2 {
 
   text-align: center;
+  margin: 50px;
 
 }
 
@@ -73,10 +74,63 @@ h2 {
   flex-direction: column;
 }
 
+/*text in middle*/
+
 .body-item2 {
   text-align: center;
   font-size: 25px;
+  margin: 50px;
 }
+
+/*Tables*/
+
+.body-item3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.body-item3-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+  justify-self: center;
+  width: 100%;
+}
+
+.body-item3 div{
+
+}
+
+.body-item3 h3{
+  background-color: rgb(254, 197, 10);
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+table caption{
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+th {
+  border-top: 0.5px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+  flex-wrap: wrap;
+}
+
 
 /*accessibility.hmtl specific*/
 
