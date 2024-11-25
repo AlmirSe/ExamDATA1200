@@ -3,9 +3,8 @@
   background-color: white;
   margin: 0;
   padding: 0;
-}
 
-/*index.html specific*/
+}
 
 /*Navbar*/
 
@@ -31,6 +30,45 @@
   text-align: center;
   align-content: center;
 
+}
+
+/*index.html specific*/
+
+.body-container{
+  margin-bottom: 10px;
+}
+
+.body-container h1, h2{
+
+  text-align: center;
+
+}
+
+.body-item1{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.body-item1-div{
+
+  padding: 10px;
+  margin: 15px;
+  height: 50px;
+  width: 150px;
+  flex-wrap: wrap;  
+
+  align-items: center;
+  border-top: 1px solid black;
+
+}
+
+.body-item1-div p{
+  display: flex;
+  flex-direction: column;
 }
 
 /*accessibility.hmtl specific*/
