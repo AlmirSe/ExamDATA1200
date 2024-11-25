@@ -6,10 +6,19 @@
 
 }
 
-h1, h2 {
+/*All h1 and h2 should be in the middle*/
+h1,
+h2 {
 
   text-align: center;
   margin: 50px;
+
+}
+/*Image css*/
+img {
+
+  max-width: 100%;
+  height: auto;
 
 }
 
@@ -46,8 +55,7 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
-
-
+/*This is the items class in the container, to make the items have the desired look*/
 .body-item1 {
   display: flex;
   flex-direction: row;
@@ -56,9 +64,9 @@ h1, h2 {
   width: 100%;
 
 }
-
+/*Uses the "container" class to create the possibility to spread 
+the items inside, evenly and neatly using flexbox css.*/
 .body-item1-div {
-
   padding: 10px;
   margin: 15px;
   height: 50px;
@@ -83,14 +91,15 @@ h1, h2 {
   margin: 50px;
 }
 
-/*Tables*/
-
-.body-item3{
+/*Tables specific CSS*/
+/*Table-conatiner makes sure all the tables fall under eachother*/
+.body-item3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
+/*Table item organizes its contet so it looks neatly when viewed*/
 .body-item3-table {
   display: flex;
   flex-direction: column;
@@ -100,32 +109,33 @@ h1, h2 {
   width: 100%;
 }
 
-.body-item3 div{
-
-}
-
-.body-item3 h3{
+.body-item3 h3 {
   background-color: rgb(254, 197, 10);
   padding: 5px;
 }
 
+/*here we remove the hard borders of the table and moce te text to the left*/
 table {
   border-collapse: collapse;
   margin-top: 20px;
   text-align: left;
 }
 
-table caption{
+/*We change the caption font*/
+table caption {
   font-weight: bolder;
   text-align: left;
   margin-bottom: 5px;
 }
 
+/*Tablehead gets a solid line over it*/
 th {
   border-top: 0.5px solid black;
 }
 
-th, td {
+/*tablehead and tabledata gets some styling*/
+th,
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #DDD;
@@ -134,8 +144,8 @@ th, td {
 
 
 /*accessibility.hmtl specific*/
-
-.accessibility-container{
+/*This is the items class in the container, to make the items have the desired look*/
+.accessibility-container {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -145,20 +155,21 @@ th, td {
 
 }
 
-.accessibility{
-
+/*This is the items class in the container, to make the items have the desired look*/
+.accessibility {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 750px;
   margin-bottom: 25px;
-  
+
 }
 
 /*activity.html specific*/
-
-.activities-container{
+/*Uses the "container" class to create the possibility to spread 
+the items inside, evenly and neatly using flexbox css.*/
+.activities-container {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -168,32 +179,33 @@ th, td {
 
 }
 
-.activities{
-
+/*This is the items class in the container, to make the items have the desired look*/
+.activities {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 600px;
   margin-bottom: 25px;
-  
+
 }
 
-.activities h2{
-  text-align: left;
+/*speicific css*/
+.activities h2 {
   margin: 10px;
 }
 
-.activities img{
-
-  max-width: 50%;
+/*speicific css*/
+.activities img {
+  max-width: 75%;
   height: auto;
 
 }
 
 /*github.html specific*/
-
-.github-container{
+/*Uses the "container" class to create the possibility to spread 
+the items inside, evenly and neatly using flexbox css.*/
+.github-container {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -203,25 +215,18 @@ th, td {
 
 }
 
-.github{
-
+/*This is the items class in the container, to make the items have the desired look*/
+.github {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 600px;
   margin-bottom: 25px;
-  
+
 }
 
-.github h2{
-  text-align: left;
+/*speicific css*/
+.github h2 {
   margin: 10px;
-}
-
-.github img{
-
-  max-width: 100%;
-  height: auto;
-
 }
